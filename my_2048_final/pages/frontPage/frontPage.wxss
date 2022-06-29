@@ -1,0 +1,59 @@
+.container {
+  color: #776e65;
+  background-color: #faf8ee;
+  height: 100vh;
+  position: relative;
+} 
+.head {
+  text-align: center;
+  position: absolute;
+  top: 10vh;
+}
+.title {
+  font-size: 10vh;
+  font-weight: 400;
+}
+.mid {
+  background-color: #f3d1b1;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  width: 300px;
+  height: 120px;
+  box-sizing: border-box;
+  top: 30vh;
+}
+.history {
+  color: #fc8c23;
+  font-size: 5vh;
+  font-weight: 200;
+  position: absolute;
+  left: 76px;
+  bottom: 60px;
+}
+.point {
+  font-size: 20px;
+  background-color: #ee9643;
+  color: #fff;
+  border-radius: 1px;
+  width: 160px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+.low {
+  text-align: center;
+  position: absolute;
+  box-sizing: border-box;
+  top: 60vh;
+}
+.start {
+  background-color: #a89684;
+  color:#ffffff;
+  font-size: 30px;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<text>pages/index/index.wxml</text>
+<button bindtap="getuserid" type="primary">获取玩家的userid</button>
+
+<!--查看玩家数据-->>
+<button bindtap="cloud_database" type="primary">查看玩家数据:cloud_database</button>
+<!--更新玩家最高分-->>
+<input placeholder="输入新的最高分" bindinput="pointInput"></input>
+<button bindtap="update_database" type="primary">更新玩家最高分:update_database</button>

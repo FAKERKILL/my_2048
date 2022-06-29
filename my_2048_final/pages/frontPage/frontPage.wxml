@@ -1,0 +1,12 @@
+<view class='container'> 
+  <view class='head'>
+    <text class='title'>2048</text>
+  </view>
+  <view class='mid'>
+    <text class='history'>历史最高分</text>
+    <text class='point'>{{point}}</text>
+  </view>
+  <view class='low'>
+    <button class='start' bindtap='goToGamePage'>开始游戏</button>
+  </view>
+</view>
